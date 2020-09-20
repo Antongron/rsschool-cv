@@ -1,0 +1,21 @@
+body {
+    color: #6e6464;
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-left: 10%;
+    
+}
+.table-elements {
+    margin-top: 1px;
+    padding-top: 1px;
+    
+}
+header{
+    background-color: #b3b6ba;
+}
+
+.bgcolor {
+    border: 33px solid #b3b6ba;
+}
