@@ -16,6 +16,11 @@ header{
     background-color: #b3b6ba;
 }
 
+a{
+    color: #6E6464;
+}
+
 .bgcolor {
     border: 33px solid #b3b6ba;
 }
+
