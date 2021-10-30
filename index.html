@@ -1,82 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link
-            href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap"
-            rel="stylesheet">
-    <title>Malkin Anton</title>
-    <base target="_blank">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+	<title>CV: Front-end Malkin Anton</title>
+	<base target="_blank">
 </head>
+
 <body>
 
+	<div class="wrapper">
+		<header>
+			<nav>
+				<ul class="nav-bar">
+					<li class="nav-item"><a href="#info" target="_self">Info</a></li>
+					<li class="nav-item"><a href="#portfolio" target="_self">Priorities</a></li>
+					<li class="nav-item"><a href="#skills" target="_self">Skills</a></li>
+					<li class="nav-item"><a href="#portfolio" target="_self">Portfolio</a></li>
+					<li class="nav-item"><a href="#portfolio" target="_self">English</a></li>
+					<li class="nav-item"><a href="#portfolio" target="_self">Code example</a></li>
+					<li class="nav-item"><a href="#contacts" target="_self">Contacts</a></li>
+				</ul>
+			</nav>
+			<div class="header-item">
+				<div>
+					<img class="table-elements" src="./src/avatar 200.jpg" alt="my photo">
+				</div>
+				<div class="header-text">
+					<h1>Hello!</h1>
+					<p>My fullname is Malkin Anton. I'm beginner Fron-end Developer. Nice to met you!</p>
+				</div>
+			</div>
+		</header>
 
-<div class="container">
-    <header>
-        <table>
-            <tr>
-                <th rowspan="3">
-                    <img class="table-elements" src="./src/avatar 200.jpg" alt="my photo" width="170">
-                </th>
-                <th rowspan="2" width="100%">
-                    <h1 class="table-elements">Malkin Anton</h1>
-                </th>
-            </tr>
-        </table>
-    </header>
+		<main>
+			<h2 class="about-title" id="info">About me:</h2>
+			<p>
+				Been born in 1996.
+				<br>
+				<br>
+				I have unfinished technical education (studied at VSU, Physycs Faculty).
+				<br>
+				<br>
+				Previously didn't work in the IT and looking for an internship.
+				<br>
+				<br>
+				Practiced in local company as trasinee frontend-developer for one month and made small studying project.
+				Junior web-developer, i'm ready to work remote.
+			</p>
+			<h2 id="skills">My skills:</h2>
+			<ul>
+				<li class="skills-item">Redux</li>
+				<li class="skills-item">React.js</li>
+				<li class="skills-item">TypeScript</li>
+				<li class="skills-item">Middle HTML</li>
+				<li class="skills-item">Middle CSS</li>
+				<li class="skills-item">Middle JavaScript</li>
+				<li class="skills-item">English Intermediate</li>
+			</ul>
+			<h3 id="portfolio">My projects:</h3>
+			<ul class="projects">
+				<li class="projects-item">
+					<a href="https://antongron.github.io/Momentum/">Momentum</a>
+				</li>
+				<li class="projects-item">
+					<a href="https://antongron.github.io/Virtual-Keyboard/">Virtual-Keyboard</a>
+				</li>
+				<li class="projects-item">
+					<a href="https://Antongron.github.io/Vanilla-JavaScript-Calculator/">Vanilla JS calculator</a>
+				</li>
+			</ul>
+		</main>
 
+		<footer>
+			<h2 id="contacts">Contacts:</h2>
+			<span width="300px">
+				<ul class="contacts">
+					<li class="footer-item"><a alt="telegram" href="https://t.me/AntonMjunior">
+							<img src="./src/telegram.png" alt="telegram" width="33px">t.me/AntonMjunior
+						</a></li>
+					<li class="footer-item"><a href="mailto:14gron@gmail.com" Email>
+							<img alt="gmail" src="./src/gmail.png" title="14gron@gmail.com" width="33px"> 14gron@gmail.com
+						</a></li>
+					<li class="footer-item">
+						<a href="tel:+7(930)401-79-00">
+							<img alt="telephone" title="+7(930)41-79-00" src="./src/call.png" width="33px">+7(930)401-79-00
+						</a>
+					</li>
+				</ul>
+			</span>
 
-    <main>
-        <h2>About me.</h2>
-        Junior web-developer, i'm ready to work remote.
-        <h2>My skills:</h2>
-        <ul>
-            <li>React.js</li>
-            <li>Redux</li>
-            <li>TypeScript</li>
-            <li>Middle HTML</li>
-            <li>Middle CSS</li>
-            <li> Middle JavaScript</li>
-            <li>English Intermediate</li>
-        </ul>
-        <h2>My projects:</h2>
-        <ul>
-            <li>
-                <a href="https://antongron.github.io/Momentum/">Momentum</a>
-            </li>
-            <li>
-                <a href="https://antongron.github.io/Virtual-Keyboard/">Virtual-Keyboard</a>
-            </li>
-            <li>
-                <a href="https://Antongron.github.io/Vanilla-JavaScript-Calculator/">Vanilla JS calculator</a>
-            </li>
-
-        </ul>
-    </main>
-
-    <footer>
-        <h2>Contacts:</h2>
-        <ul class="contacts">
-            <li><a alt="telegram" href="https://t.me/AntonMjunior">
-                <img src="./src/telegram.png" alt="telegram" width="33px">
-            </a></li>
-            <li><a href="mailto:14gron@gmail.com" Email>
-                <img alt="gmail" src="./src/gmail.png" title="14gron@gmail.com" width="33px">
-            </a></li>
-            <li><a href="tel:+7(903)51-20-54">
-                <img alt="telephone" title="+7(903)51-20-54" src="./src/call.png" width="33px">
-            </a></li>
-        </ul>
-        <div>
-            Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
-            perfect</a>
-            from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-        </div>
-    </footer>
-</div>
-
+			<div>
+				Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+					perfect</a>
+				from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+			</div>
+		</footer>
+	</div>
 
 </body>
+
 </html>
