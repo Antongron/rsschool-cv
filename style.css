@@ -29,7 +29,9 @@ h3 {
 	font-size: 56px;
 	text-align: center;
 	margin: 56px 0;
-	text-shadow: red 1px 1px 10px;
+	font-weight: bolder !important;
+
+	/* text-shadow: black 1px 1px 10px; */
 }
 
 .wrapper {
